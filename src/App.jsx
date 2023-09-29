@@ -5,24 +5,29 @@ import Swal from 'sweetalert2'
 
 const questionList = [
   {
-    tittle: "What is HTML",
-    option: ["WHat is the lange", "What is HTML", "WHat Is htn", "What Is hrn"],
-    correctAnswer: "WHat is the lange"
+    tittle: "What does HTML stand for?",
+    option: ["Hyper Text Markup Language", "Hyper Tool Markup Language", "Hyperlinks Text Markup Language", "Hyper Text up Language"],
+    correctAnswer: "Hyper Text Markup Language"
   },
   {
-    tittle: "What is Css",
-    option: ["WHat is the ok Answer", "What is Css", "WHat Is Cs", "What Is cs"],
-    correctAnswer: "WHat is the ok Answer"
+    tittle: "Which HTML tag is used to define an internal style sheet?",
+    option: ["<style>", "<script>", "<css>", "<Html>"],
+    correctAnswer: "<style>"
   },
   {
-    tittle: "What is js",
-    option: ["WHat is the ok js", "What is js", "WHat Is js", "What Is js"],
-    correctAnswer: "WHat is the ok js"
+    tittle: "Where is the correct place to insert a JavaScript?",
+    option: ["Both <head> Section and <body> section ", "The <head> section", "The <body> section", "The <title> section"],
+    correctAnswer: "Both <head> Section and <body> section"
   },
   {
-    tittle: "What is react",
-    option: ["WHat is the ok React", "What is react", "WHat Is js", "What Is js"],
-    correctAnswer: "WHat is the ok js"
+    tittle: "The external JavaScript file must contain the <script> tag",
+    option: ["True", "false" , "Undefine","NaN"],
+    correctAnswer: "false"
+  },
+  {
+    tittle: "What is the correct command to create a new React project?",
+    option: ["npm create-react-app", "npx create-react-app" ,"npm create-react-app myReactAPP","npx create-react-app myReactAPP"  ],
+    correctAnswer: "npm create-react-app myReactAPP"
   }
 ]
 
@@ -80,7 +85,7 @@ function App() {
  
   return (
     <div> 
-      <h1 className='quiz' >Quiz App</h1>
+      <h1 className='quiz' >Quiz Text</h1>
     <div className="App">
       <div className='Inp' >
       
